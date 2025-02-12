@@ -1,0 +1,27 @@
+{
+    "type": "rectangle",
+    "properties": {
+        "x": 100,
+        "y": 100,
+        "width": 150,
+        "height": 100,
+        "fill": "blue",
+        "stroke": "black",
+        "strokeWidth": 2,
+        "draggable": true
+    },
+    "actions": {
+        "changeColor": {
+            "description": "Change the color of the rectangle",
+            "parameters": ["newColor"]
+        },
+        "resize": {
+            "description": "Resize the rectangle",
+            "parameters": ["newWidth", "newHeight"]
+        },
+        "rotate": {
+            "description": "Rotate the rectangle",
+            "parameters": ["angle"]
+        }
+    }
+}
